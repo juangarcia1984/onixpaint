@@ -1,0 +1,112 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../assests/imagenes/imagen-fondo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}   
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+    font-size: 25px;
+}
+
+header {
+    width: 100%;
+    height: 220px;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+header .header-nav{
+    width: 100%;
+    height: 80px;
+    display: grid;
+}
+header .header-nav .lista{
+    width: 450px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content:space-between;
+    justify-self: center;
+    list-style: none;
+}
+
+nav {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    height: 140px;
+}
+
+nav .nav-container {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+nav .nav-container img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-top: auto;
+
+}
+
+nav .contacto-link img{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-top: auto;
+}
+
+nav .contacto-link{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.home-main{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    
+}
+
+.home-main section{
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 80px;
+}
+.home-texto{
+    font-size: 30px;
+    font-weight: 200px;
+    color: black; 
+    text-align: center;
+}
+.home-boton {
+    width: 120px;
+    height: 60px;
+    background-color: rgb(181, 175, 175);
+    display: grid;
+    align-items: center;
+    border-style: none;
+    border-radius: 80px;
+}
+.home-boton a {
+    font-size: 25px;
+}
+
+
